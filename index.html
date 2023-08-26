@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.js"></script>
+    <title>Books by Karangwa Mutesi</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-items">
+            <div class="logo"><a href="#" class="title-header">Awesome Books</a></div>
+            <ul class="navigation-list">
+                <li class="navigation-li">Books</li>
+                <li class="navigation-li">Add Book</li>
+                <li class="navigation-li">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="time"></div>
+    <main class="first-page">
+        <section class="show-bks">
+            <h1 class="main-header">All Awesome Books</h1>
+            <section class="all"></section>
+        </section>
+        <section class="address-dets">
+            <h2 class="head">Contact Information</h2>
+            <p class="address-more"> For more information, please contact us at:</p>
+            <ul class="contact-dets">
+                <li>Email: pr@booksbykarangwa.com</li>
+                <li>Phone: 322-643021000</li>
+                <li>Address: 5333 Clean Av, Kigali</li>
+            </ul>
+        </section>
+        <section class="insertbk" class="dets-area">
+            <h2 id="insert-manual">Add a New Book</h2>
+            <form action="" class="insertForm">
+                <input type="text" id="documenttitle" placeholder="Title" class="blankinsrt" required />
+                <br />
+                <input type="text" id="writer" placeholder="Author" class="blankinsrt" required />
+                <br />
+                <button type="button" class="insertDcmnts">Add Book</button>
+                <p class="showMistake"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023. Books by Karangwa Mutesi </p>
+        </div>
+    </footer>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
